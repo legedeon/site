@@ -422,6 +422,7 @@ Tables
 table {
     border-spacing: 0;
     border-collapse: collapse;
+    color: #fff;
 }
 
 /* ==========================================================================
@@ -531,7 +532,7 @@ Navigation
     width: 35px;
     height: 5px;
     border-radius: 1px;
-    background: #fff;
+    background: #1C4596;
     cursor: pointer;
 }
 .nav-toggle span:before {
@@ -566,7 +567,8 @@ Navigation
     height: 26px;
 }
 .navicon p {
-    margin: 1px 50px 0 0
+    margin: 1px 50px 0 0;
+    color: #1C4596;
 }
 .navicon-fixed {
     position: fixed;
@@ -578,6 +580,7 @@ Navigation
 Hero
 ========================================================================== */
 .hero {
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
     position: relative;
     padding: 60px 0 60px 0;
     min-height: 800px;
@@ -585,14 +588,18 @@ Hero
     background-size: cover;
     color: #fff;
 }
-.hero h1 {
-    margin: 200px 0 45px 0;
-    font-weight: 300;
-    font-size: 45px;
+.hero-content {
+    margin: 300px 0 45px 0;
+    font-weight: 700;
+    font-size: 1.95em;
+    color: #fff;
+    text-transform: uppercase;
 }
 .hero h1 span {
     display: inline-block;
-    color: #a1a9b0;
+    font-size: .6em;
+    color: #fff;
+    text-transform: lowercase;
 }
 #home {
     width: 100%;
@@ -828,7 +835,7 @@ Screenshots Intro
 ========================================================================== */
 .screenshots-intro {
     padding: 170px 0 100px 0;
-    background-color: #f6f7f9;
+    background-color: #fff;
 }
 .screenshots-intro h1 {
     margin-bottom: 20px;
@@ -932,7 +939,7 @@ Download Now
 ========================================================================== */
 .download {
     padding: 120px 0;
-    background-color: #3f6184;
+    background-color: #2C2C2C;
 }
 .download h1 {
     margin: 0 0 15px 0;
@@ -1090,4 +1097,23 @@ Waypoints
 .delay-1s {
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
+}
+
+/* ============== */
+
+.map {
+    width: 100%;
+    height: 500px;   
+}
+
+
+.map-wrap {
+    position: relative; 
+}
+    
+.map-overlay {
+    width: 100%;
+    min-height: 500px; 
+    position: absolute; 
+    top: 0;
 }
