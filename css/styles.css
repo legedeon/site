@@ -601,6 +601,15 @@ Hero
     color: #fff;
     text-transform: lowercase;
 }
+.hero .language {
+    margin-right: 1.2em;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.hero .language a:visited,
+.hero .language a:link {
+    color: #777;
+}
 #home {
     width: 100%;
     height: 100%;
@@ -963,7 +972,7 @@ footer ul {
 }
 footer li {
     float: left;
-    margin-right: 15%;
+    margin-right: 10%;
     list-style: none;
     text-transform: uppercase;
     font-weight: 400;
@@ -1103,17 +1112,17 @@ Waypoints
 
 .map {
     width: 100%;
-    height: 500px;   
+    height: 500px;
 }
 
 
 .map-wrap {
-    position: relative; 
+    position: relative;
 }
-    
+
 .map-overlay {
     width: 100%;
-    min-height: 500px; 
-    position: absolute; 
+    min-height: 500px;
+    position: absolute;
     top: 0;
 }
