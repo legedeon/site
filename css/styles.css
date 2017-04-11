@@ -605,6 +605,8 @@ Hero
     margin-right: 1.2em;
     font-weight: bold;
     font-size: 1.2em;
+    background: white;
+    padding: .6em;
 }
 .hero .language a:visited,
 .hero .language a:link {
